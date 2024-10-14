@@ -1,4 +1,3 @@
-// 0-constants.test.js
 import { taskFirst, taskNext } from './0-constants.js';
 
 test('tasks are correctly defined', () => {
