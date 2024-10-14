@@ -2,7 +2,7 @@ export default function getNeighborhoodsList() {
     
     sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
     
-    addNeighborhood = add() = newNeighborhood => {
+    addNeighborhood = (newNeighborhood) => {
       sanFranciscoNeighborhoods.push(newNeighborhood);
       return sanFranciscoNeighborhoods;
     };
